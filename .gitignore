@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.python-version
+venv/
+env/
+.env
+.env.*
+**/venv/
+**/env/
+**/.venv/
+**/.env/
+
+# Backend dependencies
+backend/__pycache__/
+backend/*.egg-info/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.cache/
+backend/.venv/
+backend/env/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg
+*.egg-info
+dist/
+build/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data artifacts
+ml_pipeline/data/
+ml_pipeline/.cache/
+
+# Generated files
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage.xml
+htmlcov/
+.coverage
+.coverage.*
+
+# Misc
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
