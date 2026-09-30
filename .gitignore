@@ -62,7 +62,6 @@ build/
 .ipynb_checkpoints/
 
 # Data artifacts
-ml_pipeline/data/
 ml_pipeline/.cache/
 
 # Generated files
